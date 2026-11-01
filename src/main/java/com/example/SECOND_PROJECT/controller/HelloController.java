@@ -18,6 +18,4 @@ public class HelloController {
     public ResponseEntity<?> test(){
         return new ResponseEntity<>("TEST", HttpStatus.OK);
     }
-
-
 }
